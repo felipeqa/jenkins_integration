@@ -19,12 +19,6 @@ if BROWSER.eql?('remote')
   end
 else
   Capybara.register_driver :selenium_chrome do |app|
-    options = {
-      :js_errors => false,
-      :timeout => 360,
-      :debug => false,
-      :inspector => false,
-    }
     Capybara::Selenium::Driver.new(app, :browser => :chrome)
   end
 end
