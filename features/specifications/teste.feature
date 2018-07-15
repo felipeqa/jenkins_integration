@@ -1,6 +1,6 @@
 #encoding: utf-8
 #language: pt
-
+@frontend
 Funcionalidade: Aqui vc descreve a sua Funcionalidade
   Como usuario de qualquer coisa
   Quero fazer alguma coisa
