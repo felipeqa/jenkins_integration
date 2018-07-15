@@ -2,3 +2,4 @@ default: --no-source --color --format pretty
 remote: BROWSER=remote
 backend: -t @backend
 frontend: -t @frontend
+all: -t @all
