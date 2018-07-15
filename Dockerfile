@@ -1,5 +1,7 @@
 FROM ruby:2.3
 
+MAINTAINER Felipe Rodrigues <felipe_rodriguesx@hotmail.com>
+
 ENV app_path /opt/jenkins/
 WORKDIR ${app_path}
 
