@@ -1,6 +1,6 @@
 #encoding: utf-8
 #language: pt
-
+@all
 Funcionalidade: API Correios CEP
 Utilizando um CEP válido, essa API retorna todos os detalhes de um endereço para aquele CEP.
 @cepvalido @backend
