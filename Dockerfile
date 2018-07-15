@@ -10,4 +10,4 @@ RUN bundle install
 
 COPY . ${app_path}
 
-ENTRYPOINT ["bundle", "exec", "cucumber BROWSER=remote --format json -o /opt/jenkins/cucumber.json"]
+ENTRYPOINT ["bundle", "exec", "cucumber -p ${BROWSER} -p  ${TAG}  --format json -o /opt/jenkins/cucumber.json"]
