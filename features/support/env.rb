@@ -3,6 +3,7 @@ require 'cucumber'
 require 'selenium/webdriver'
 require 'capybara/dsl'
 require 'httparty'
+require 'pry'
 
 World Capybara::DSL
 BROWSER = ENV['BROWSER']
