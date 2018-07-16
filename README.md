@@ -515,7 +515,7 @@ Vamos ver o cucumber reports?
 
 Como podemos ver alteramos a tag e executamos apenas o teste de frontend.
 
-![Passo 38](readme_images/Picture37.jpg?raw=true)
+![Passo 38](readme_images/Picture38.jpg?raw=true)
 
 Então galera é isso!
 
